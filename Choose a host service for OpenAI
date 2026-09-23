@@ -1,0 +1,36 @@
+In this quickstart, you create a .NET console AI chat app that connects to an AI model with local function-calling enabled. The app uses the Microsoft.Extensions.AI library so you can write code using AI abstractions rather than a specific SDK. AI abstractions enable you to change the underlying AI model with minimal code changes.
+
+Prerequisites
+.NET 8.0 SDK or higher - Install the .NET 8.0 SDK.
+An API key from OpenAI so you can run this sample.
+Create the app
+Complete the following steps to create a .NET console app to connect to an AI model.
+
+In an empty directory on your computer, use the dotnet new command to create a new console app:
+
+.NET CLI
+dotnet new console -o FunctionCallingAI
+Change directory into the app folder:
+
+.NET CLI
+cd FunctionCallingAI
+Install the required packages:
+
+Bash
+dotnet add package Microsoft.Extensions.AI
+dotnet add package Microsoft.Extensions.AI.OpenAI
+dotnet add package Microsoft.Extensions.Configuration
+dotnet add package Microsoft.Extensions.Configuration.UserSecrets
+Open the app in Visual Studio Code or your editor of choice
+
+Bash
+code .
+Configure the app
+Navigate to the root of your .NET project from a terminal or command prompt.
+
+Run the following commands to configure your OpenAI API key as a secret for the sample app:
+
+Bash
+dotnet user-secrets init
+dotnet user-secrets set OpenAIKey <your-OpenAI-key>
+dotnet user-secrets set ModelName <your-OpenAI-model-name>
