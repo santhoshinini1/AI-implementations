@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>AI_implementations</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>93f07cb0-5950-4a4b-ad4c-02cd0e23a3c0</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.AI" Version="10.10.0" />
+    <PackageReference Include="Microsoft.Extensions.AI.OpenAI" Version="10.10.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="10.0.12" />
+    <PackageReference Include="OpenAI" Version="2.14.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="chat client.cs" />
+    <Compile Remove="chat history.cs" />
+    <Compile Remove="chatoptions.cs" />
+  </ItemGroup>
+
+</Project>
