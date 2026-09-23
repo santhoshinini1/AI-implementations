@@ -26,3 +26,13 @@ The app shows how an AI model can invoke local .NET functions while responding t
 - summarize an article using a local summarization function
 
 This is a practical pattern for tool calling and function invocation in .NET AI apps.
+
+## Screenshots
+
+### Local demo mode
+
+![Local demo mode](docs/screenshots/local-demo.svg)
+
+### Tool calling flow
+
+![Tool calling flow](docs/screenshots/tool-calling-flow.svg)
