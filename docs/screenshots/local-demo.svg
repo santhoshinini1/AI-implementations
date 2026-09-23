@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#1f2937"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <rect x="70" y="60" width="1060" height="560" rx="20" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  <circle cx="115" cy="100" r="8" fill="#f87171"/>
+  <circle cx="145" cy="100" r="8" fill="#fbbf24"/>
+  <circle cx="175" cy="100" r="8" fill="#4ade80"/>
+  <text x="230" y="108" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">AI Function Calling Demo</text>
+
+  <rect x="110" y="150" width="980" height="400" rx="14" fill="#020617" stroke="#1e293b"/>
+  <text x="150" y="205" fill="#f8fafc" font-family="Consolas, monospace" font-size="24">No valid OpenAI API key was found. Running in local demo mode without the API key.</text>
+  <text x="150" y="255" fill="#a7f3d0" font-family="Consolas, monospace" font-size="24"> </text>
+  <text x="150" y="300" fill="#e2e8f0" font-family="Consolas, monospace" font-size="24">Weather tool result:</text>
+  <text x="150" y="345" fill="#93c5fd" font-family="Consolas, monospace" font-size="24">The weather in Montreal is 15 C with periods of rain and drizzle.</text>
+  <text x="150" y="390" fill="#e2e8f0" font-family="Consolas, monospace" font-size="24">Article summary result:</text>
+  <text x="150" y="435" fill="#86efac" font-family="Consolas, monospace" font-size="24">Artificial intelligence is changing the way software is built; ...</text>
+
+  <rect x="770" y="560" width="280" height="42" rx="21" fill="url(#accent)"/>
+  <text x="852" y="588" text-anchor="middle" fill="#0f172a" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">Local Demo</text>
+</svg>

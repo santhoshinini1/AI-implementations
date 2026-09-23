@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "X9eOGMIrRM4=",
+  "success": true,
+  "projectFilePath": "/workspaces/AI-implementations/AI-implementations.csproj",
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/microsoft.extensions.ai/10.10.0/microsoft.extensions.ai.10.10.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.ai.abstractions/10.10.0/microsoft.extensions.ai.abstractions.10.10.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.ai.openai/10.10.0/microsoft.extensions.ai.openai.10.10.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.caching.abstractions/10.0.12/microsoft.extensions.caching.abstractions.10.0.12.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.configuration/10.0.12/microsoft.extensions.configuration.10.0.12.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.configuration.abstractions/10.0.12/microsoft.extensions.configuration.abstractions.10.0.12.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.configuration.fileextensions/10.0.12/microsoft.extensions.configuration.fileextensions.10.0.12.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.configuration.json/10.0.12/microsoft.extensions.configuration.json.10.0.12.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.configuration.usersecrets/10.0.12/microsoft.extensions.configuration.usersecrets.10.0.12.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.12/microsoft.extensions.dependencyinjection.abstractions.10.0.12.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.diagnostics.abstractions/10.0.9/microsoft.extensions.diagnostics.abstractions.10.0.9.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.fileproviders.abstractions/10.0.12/microsoft.extensions.fileproviders.abstractions.10.0.12.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.fileproviders.physical/10.0.12/microsoft.extensions.fileproviders.physical.10.0.12.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.filesystemglobbing/10.0.12/microsoft.extensions.filesystemglobbing.10.0.12.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.hosting.abstractions/10.0.9/microsoft.extensions.hosting.abstractions.10.0.9.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.12/microsoft.extensions.logging.abstractions.10.0.12.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.options/10.0.9/microsoft.extensions.options.10.0.9.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.extensions.primitives/10.0.12/microsoft.extensions.primitives.10.0.12.nupkg.sha512",
+    "/home/codespace/.nuget/packages/openai/2.14.0/openai.2.14.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.clientmodel/1.15.0/system.clientmodel.1.15.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.memory.data/10.0.9/system.memory.data.10.0.9.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.numerics.tensors/10.0.12/system.numerics.tensors.10.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
